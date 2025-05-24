@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio</title>
+    <link rel="icon" href="images/logo.webp" type="image/x-icon">
+ </head>
+ <body> 
+    <!--NAVBAR-->
+     <nav> 
+        <div class="left">
+            <a href="/">Nigam Rathore</a>
+      </div>
+
+      <div class="right">
+        <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+       <i class="fa-brands fa-github"></i>
+       <span>Gitgub</span>
+        </a>
+
+        <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+         <i class="fa-brands fa-linkedin"></i>
+       <span>Linkedin</span>
+        </a>
+
+        <a href="mailto:nigam@example.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+        </a>
+       </div>
+     </nav>
+
+     <main>
+        <!-- SECTION 1; Hero -->
+         <section class="hero-section">
+         <div class="text">
+            <h2>Hi, I'am Nigam 👋</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam corporis tenetur exercitationem hic eius voluptate molestiae id architecto, ipsa, repellat reprehenderit libero quae inventore delectus porro, dignissimos non repudiandae ea. Quod impedit provident recusandae culpa, rem harum reiciendis laboriosam architecto doloribus deserunt!</p>
+               
+               <div class="links">
+              <a href="#skills">
+                <i class="fa-solid fa-code"></i>
+                  <span>Skills</span>
+               </a>
+
+               <a href="#testimony">
+                <i class="fa-solid fa-pen"></i>
+                  <span>Testimony</span>
+               </a>
+
+               <a href="#contacts">
+                <i class="fa-solid fa-envelpope"></i>
+                  <span>Contacts</span>
+               </a>
+            </div>
+         </div> 
+         
+         <div class="headshot">
+            <img src="nigam.png" style="height: 250px;"  alt="Nigam">
+         </div>
+         </section>
+
+        <!-- SECTION 2; Skills-->
+         <section id="Skills" class="skills-section">
+         <h2>Skills</h2>
+         <div class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nobis, velit, repudiandae consequuntur sunt nisi facere voluptatum reprehenderit saepe laboriosam, vero assumenda. Cupiditate sunt doloremque odit tempora repudiandae cumque ad.
+         </div>
+
+         <div class="container">
+         
+         <div class="cells">
+            <div class="cell">
+               <img src="images/html-logo.webp" alt="html logo">
+               <span>Html</span>
+            </div>
+         </div>
+
+         <div class="cells">
+            <div class="cell">
+               <img src="images/css-logo.webp" alt="css logo">
+               <span>Css</span>
+            </div>
+         </div> 
+
+         <div class="cells">
+            <div class="cell">
+               <img src="images/javascript-logo.webp" alt="javascript logo">
+               <span>Javascript</span>
+            </div>
+         </div>
+
+         <div class="cells">
+            <div class="cell">
+               <img src="images/node-logo.webp" alt="node-logo">
+               <span>Node</span>
+            </div>
+         </div>
+
+         <div class="cells">
+            <div class="cell">
+               <img src="images/react-logo.webp" alt="react-logo">
+               <span>React.js</span>
+            </div>
+         </div>
+
+         </div>
+         </section>
+
+        <!-- SECTION 3; Testimony -->
+         <section id="Testimony" class="testimony-section">
+            <h2>Testimony</h2>
+
+            <div class="group">
+              <div class="person-details">
+               <img src="images/testimony.png">
+               <p>John Doe</p>
+               <p>Lorem ipsum dolor sit.</p>
+              </div>
+
+               <div class="text">
+                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam consequatur itaque officia debitis molestiae, deserunt dignissimos magni cupiditate, vitae eius repudiandae, dolorum quasi pariatur impedit perspiciatis voluptatibus laborum inventore blanditiis nobis. Delectus officia provident perspiciatis quos laboriosam aliquid vero doloribus eius similique? Incidunt quibusdam cupiditate, enim quasi laudantium provident in."
+               </div>
+
+            </div>
+         </section>
+
+        <!-- SECTION 4; Contacts-->
+         <section id="Contact" class="contact-section">
+            <h2>Contact</h2>
+
+            <div class="group">
+            <div class="text">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nobis, velit, repudiandae consequuntur sunt nisi facere voluptatum reprehenderit saepe laboriosam, vero assumenda. Cupiditate sunt doloremque odit tempora repudiandae cumque ad.
+            </div>
+
+            <form> 
+               <label for="name">Name</label>
+               <input type="text" id="name">
+
+                <label for="email">Email</label>
+               <input type="email" id="email">
+
+               <label for="message">Message</label>
+
+               <textarea  id="message" cols="30" rows="10"></textarea>
+
+               <button type="submit">Send Message</button>
+            </form>
+            </div>
+         </section>
+
+     </main>
+    
+</body>
+</html>
